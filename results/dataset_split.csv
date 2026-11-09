@@ -1,0 +1,7 @@
+,Training,Validation,Test,Total
+Normal (0),412,103,27,542
+Stage I,939,235,61,1235
+Stage II,170,43,11,224
+Stage III,293,73,19,385
+Stage IV,120,30,8,158
+All stages,1934,484,126,2544

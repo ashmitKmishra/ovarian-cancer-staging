@@ -1,0 +1,26 @@
+# No data in this repository (available from the corresponding author on request):
+# everything in data/ except its README is ignored, including image folders and label CSVs
+data/*
+!data/README.md
+
+# Per-image predictions written by code/evaluate.py (lists image filenames)
+results/test_predictions.csv
+
+# Trained weights are too large for git; they are attached to a GitHub Release instead
+model/*.pth
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Outputs of new training runs
+runs/

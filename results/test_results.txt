@@ -1,0 +1,24 @@
+Model: best_ovarian_model.pth
+Test images: 126
+Accuracy: 97.62% (123/126 correct)
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+  Normal (0)     1.0000    1.0000    1.0000        27
+     Stage I     0.9677    0.9836    0.9756        61
+    Stage II     0.9091    0.9091    0.9091        11
+   Stage III     1.0000    0.9474    0.9730        19
+    Stage IV     1.0000    1.0000    1.0000         8
+
+    accuracy                         0.9762       126
+   macro avg     0.9754    0.9680    0.9715       126
+weighted avg     0.9764    0.9762    0.9762       126
+
+Confusion matrix (rows = true stage, columns = predicted stage):
+            Normal (0)  Stage I  Stage II  Stage III  Stage IV
+Normal (0)          27        0         0          0         0
+Stage I              0       60         1          0         0
+Stage II             0        1        10          0         0
+Stage III            0        1         0         18         0
+Stage IV             0        0         0          0         8
