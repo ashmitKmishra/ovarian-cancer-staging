@@ -2,8 +2,6 @@
 
 No data is stored in this repository: no images, image lists or labels. The microscopy images are available from the corresponding author, Dr. Prabhakar Pradhan (Department of Physics and Astronomy, Mississippi State University), on reasonable request.
 
-Everything in `data/` except this README is listed in `.gitignore`, so data placed here cannot be committed by accident.
-
 ## Setting up the data after you receive it
 
 **1. Put the images in two folders:**
